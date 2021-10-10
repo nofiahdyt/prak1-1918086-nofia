@@ -15,23 +15,15 @@ public class Biodata extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_biodata);
 
-        final EditText nama =
-                (EditText)findViewById(R.id.input_nama);
-        final EditText nim =
-                (EditText)findViewById(R.id.input_nim);
-        final EditText jurusan =
-                (EditText)findViewById(R.id.input_jurusan);
-        final EditText angkatan =
-                (EditText)findViewById(R.id.input_angkatan);
+        final EditText nama = (EditText)findViewById(R.id.input_nama);
+        final EditText nim = (EditText)findViewById(R.id.input_nim);
+        final EditText jurusan = (EditText)findViewById(R.id.input_jurusan);
+        final EditText angkatan = (EditText)findViewById(R.id.input_angkatan);
 
-        final TextView nama_t =
-                (TextView)findViewById(R.id.output_nama);
-        final TextView nim_t =
-                (TextView)findViewById(R.id.output_nim);
-        final TextView jurusan_t =
-                (TextView)findViewById(R.id.output_jurusan);
-        final TextView angkatan_t =
-                (TextView)findViewById(R.id.output_angkatan);
+        final TextView nama_t = (TextView)findViewById(R.id.output_nama);
+        final TextView nim_t = (TextView)findViewById(R.id.output_nim);
+        final TextView jurusan_t = (TextView)findViewById(R.id.output_jurusan);
+        final TextView angkatan_t = (TextView)findViewById(R.id.output_angkatan);
 
         final Button tampil = (Button)findViewById(R.id.btn_tampil);
         tampil.setOnClickListener(new View.OnClickListener(){
